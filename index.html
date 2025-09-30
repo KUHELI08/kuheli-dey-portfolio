@@ -1,0 +1,200 @@
+<html>
+
+<head>
+    <title> Mobile Recommender Project </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+
+<body>
+
+    <!-- Bootstrap scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+    <!-- Navbar -->
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://kuheli08-mobile-recommender-app-oje8yg.streamlit.app/">Recommender System</a></li>
+                </ul>
+                <div class="abc">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item"><a class="nav-link" href="https://github.com/KUHELI08/mobile_recommender">Code</a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://medium.com/@kuhelidey878/revolutionizing-mobile-phone-selection-the-power-of-ai-powered-recommendation-systems-cc4e10c11263">Article</a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/kuheli-dey-895072225/">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-- Slider -->
+    <div id="slider">
+        <div id="headerSlider" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#headerSlider" data-slide-to="0" class="active"></li>
+                <li data-target="#headerSlider" data-slide-to="1"></li>
+                <li data-target="#headerSlider" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block img-fluid" src="m1.jpg" alt="First slide">
+                    <div class="carousel-caption">
+                        <h1>Hi, Welcome to My Mobile Recommender Project!</h1>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block img-fluid" src="m2.jpg" alt="Second slide">
+                    <div class="carousel-caption">
+                        <h1>Find the Perfect Phone with AI!</h1>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block img-fluid" src="m3.jpg" alt="Third slide">
+                    <div class="carousel-caption">
+                        <h1>Smart Recommendations, Instantly</h1>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#headerSlider" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#headerSlider" role="button" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </div>
+
+    <!-- About -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <br>
+                    <div class="about-content">
+                        <h2>About The Project</h2>
+                        <br><br>
+                        <img id="imgg" src="m4.jpg">
+                        <p style="font-size:21px;">
+                            <br>This project is an <strong>AI-Powered Mobile Phone Recommender</strong> that helps users find the best mobiles based on natural language queries.
+                            <br><br>Features include:
+                            <br> 1. <strong>Natural Language Search</strong> – e.g., "Best 8GB RAM phone under 25000".
+                            <br> 2. <strong>Semantic Search</strong> – powered by NLP embeddings and vector similarity.
+                            <br> 3. <strong>Interactive Streamlit UI</strong> – fast, clean, and scalable.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery">
+        <div class="row">
+            <div class="column">
+                <img src="m5.png">
+            </div>
+        </div>
+    </section>
+
+    <!-- Project -->
+    <section id="publications" style="
+    background-image: url('a22.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;  /* Ensures text is visible */
+    padding: 50px 0;
+">
+        <div class="container p-0">
+        <br><br>
+            <h1 style="color: black; ">Project Details!</h1>
+            <div class="row portfolio-row justify-content-center">
+                <div class="col-12 col-md-5">
+                    <div class="text-center">
+                        <a target="_blank" class="title-linkk" href="https://kuheli08-mobile-recommender-app-oje8yg.streamlit.app/">
+                            <h5>Mobile Recommender System</h5>
+                        </a>
+                        <p class="project-des" style="color: black;">
+                            <br><strong>This intelligent system suggests the best phones based on your requirements. Whether you’re looking for a device with great camera quality, long battery life, or powerful performance, the system analyzes your preferences and provides the most suitable options.</strong>
+                            <br><br><strong>Technologies used:</strong> <strong>Python, Streamlit, ChromaDB, Sentence Transformers, Pandas</strong>.
+                            <br><br> <strong>Skills demonstrated:</strong> <strong>NLP, Vector Search, Data Processing, Deployment</strong>
+                            <br><br> <strong>In addition to recommending phones, the system leverages embeddings and semantic similarity search to understand natural language queries. For example, instead of manually filtering specifications, you can simply type “best phone under 20k with good camera” and instantly get suggestions. The project also showcases practical deployment of AI-driven applications using Streamlit, making it interactive and user-friendly.</strong>
+                        </p>
+                        <div class="row">
+                        <a target="_blank" href="https://kuheli08-mobile-recommender-app-oje8yg.streamlit.app/">
+                            <img class="portfolio-img" src="a23.png">
+
+                        </a>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6 text-center">
+                            <a target="_blank" href="https://kuheli08-mobile-recommender-app-oje8yg.streamlit.app/" class="button">System</a>
+
+                        </div>
+
+                        <div class="col-6 text-center">
+                            <a target="_blank" href="https://github.com/KUHELI08/mobile_recommender" class="button">Code</a>
+
+                        </div>
+
+
+                    </div>
+
+                </div> 
+            </div>
+                        <div class="col-12 col-md-5">
+                <div class="text-center">
+                    <a target="_blank" class="title-linkk" href="https://kuheli08-mobile-recommender-app-oje8yg.streamlit.app/">
+                        <h5 >Recommender System</h5>
+                    </a>
+                    <p class="project-des" style="color: black;">
+                        <br><strong>Just like how Netflix recommends movies, this recommender system focuses on mobile phones instead of movies. It helps users find devices similar to the ones they already like.</strong>
+                        <br><br><strong>For example, if a user selects a particular phone model, the system finds and recommends similar phones based on specifications, features, and performance benchmarks. This approach is particularly useful for users who already have a preferred brand or model in mind but want to explore alternatives.</strong>
+                        <br><br><strong>Technologies used:</strong> <strong>Python, Machine Learning Algorithms, Vector Similarity Search.</strong>
+                        <br><br> <strong>Skills demonstrated:</strong> <strong>Machine Learning Algorithms, Python, Deployment</strong>
+                        <br><br> <strong>This project not only demonstrates machine learning techniques for recommendation but also bridges the gap between natural language understanding and structured data filtering. It’s a practical demonstration of how recommender systems can be applied outside of entertainment (like movies or music) into consumer electronics to improve decision-making.</strong>
+                    </p>
+                    <div class="row">
+                        <a target="_blank" href="https://kuheli08-mobile-recommender-app-oje8yg.streamlit.app/">
+                            <img class="portfolio-img" src="a24.png">
+
+                        </a>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6 text-center">
+                            <a target="_blank" href="https://medium.com/@kuhelidey878/revolutionizing-mobile-phone-selection-the-power-of-ai-powered-recommendation-systems-cc4e10c11263" class="button">Blog Post</a>
+
+                        </div>
+
+                        <div class="col-6 text-center">
+                            <a target="_blank" href="https://github.com/KUHELI08/mobile_recommender" class="button">Code</a>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            </div>
+        </div>
+        
+
+           
